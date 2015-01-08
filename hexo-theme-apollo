@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /data \
+&& git clone https://github.com/joyceim/hexo-theme-apollo.git themes/apollo \
+&& sed -i '/^theme:/s/landscape/apollo/' _config.yml
